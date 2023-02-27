@@ -7,7 +7,7 @@ namespace MW.Save
 {
     public class SerializerBinary : SerializerBase
     {
-        private readonly string path = Application.persistentDataPath + "/save_data.save"; // ustawienie œcie¿ki do zapisu danych w folderze AppData
+        private readonly string path = Application.persistentDataPath + "/save_data.save";
 
         public override void Serialize(object _data)
         {

@@ -7,7 +7,7 @@ namespace MW.Save
 {
     public class SerializerJSON : SerializerBase
     {
-        private readonly string path = Application.persistentDataPath + "/save_data.json"; // ustawienie œcie¿ki do zapisu danych w folderze AppData
+        private readonly string path = Application.persistentDataPath + "/save_data.json";
 
         public override void Serialize(object _data)
         {
