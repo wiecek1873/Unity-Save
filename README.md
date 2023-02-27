@@ -1,6 +1,9 @@
 # Unity Save
 Module to handle saveing and loading data.
 
+## Dependencies
+- [Newtonsoft Json](https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@2.0/manual/index.html)
+
 ## How to
 
 ### Set value
@@ -22,7 +25,3 @@ Save.SaveLocal();
 ```cs
 Save.LoadLocal();
 ```
-
-## Dependencies
-- [Newtonsoft Json](https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@2.0/manual/index.html)
-
