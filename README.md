@@ -1,5 +1,5 @@
 # Unity Save
-Module to handle saveing and loading data.
+Module to handle saving and loading data.
 
 ## Dependencies
 - [Newtonsoft Json](https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@2.0/manual/index.html)
